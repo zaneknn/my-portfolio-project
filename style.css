@@ -40,8 +40,6 @@ h1 {
 @media (max-width: 769px) {
   body {
     text-align: center;
-    font-size: 12px;
-    color: red;
   }
 }
 .projects {
