@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #6a7fb2;
+  --text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  --text-shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.front-page {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+h1:hover {
+  color: var(--primary-color);
+}
+
+.email:hover {
+  text-decoration: underline;
+  text-shadow: var(--text-shadow-hover);
+}
+
+h1 {
+  text-shadow: 10px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.learn-more {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: var(--primary-color);
+  color: white;
+}
+.learn-more:hover {
+  color: black;
+}
+@media (max-width: 769px) {
+  body {
+    text-align: center;
+    font-size: 12px;
+    color: red;
+  }
+}
+.projects {
+  text-align: center;
+}
