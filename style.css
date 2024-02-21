@@ -1,16 +1,37 @@
 :root {
   --primary-color: #6a7fb2;
   --text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  --text-shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.19),
-    0 6px 6px rgba(0, 0, 0, 0.23);
+  --text-shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.19);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", serif;
+  --secondary-color: #f9f6ff;
 }
-.front-page {
+body {
+  font-family: var(--default-font-family);
+}
+h1,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: italic;
+  opacity: 0.7;
+}
+.hero {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding: 80px 20px;
 }
 h1:hover {
   color: var(--primary-color);
+}
+h1,
+h3 {
+  font-size: 89px;
+}
+h2 {
+  font-size: 45px;
 }
 
 .email:hover {
