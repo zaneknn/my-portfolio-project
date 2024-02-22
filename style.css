@@ -28,6 +28,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 
 p {
   font-weight: normal;
@@ -37,7 +40,62 @@ p {
 header {
   text-align: center;
 }
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+  opacity: 0.7;
+}
+nav a:hover,
+nav li.active a {
+  color: #5a4ab5;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  padding: 20px 0;
+}
+footer {
+  margin: 60px 0;
+}
 
+footer .email-link {
+  text-decoration: none;
+  color: #272142;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 0 60px;
+}
+footer .email-link:hover {
+  color: #5a4ab5;
+}
+footer .social-links a {
+  margin: 0 20px;
+  background-color: var(--secondary-color);
+  padding: 10px 13px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: rgb(199, 197, 197);
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
 .hero {
   background: white;
   text-align: center;
@@ -112,29 +170,6 @@ header {
   max-width: 200px;
   max-height: 60px;
 }
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 10px;
-}
-nav a {
-  color: black;
-  text-decoration: none;
-  transition: all 100ms ease-in-out;
-  opacity: 0.7;
-}
-nav a:hover,
-nav li.active a {
-  color: #5a4ab5;
-}
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-nav {
-  padding: 20px 0;
-}
 
 @media (max-width: 900px) {
   h1 {
@@ -144,6 +179,9 @@ nav {
 
   h2 {
     font-size: 30px;
+  }
+  h4 {
+    font-size: 26px;
   }
 
   .hero {
