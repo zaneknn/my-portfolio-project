@@ -63,9 +63,6 @@ nav ul {
 nav {
   padding: 20px 0;
 }
-footer {
-  margin: 60px 0;
-}
 
 footer .email-link {
   text-decoration: none;
@@ -120,7 +117,7 @@ footer .contact-box p {
   padding: 0px 20px;
 }
 .content-container {
-  padding: 120px 20px;
+  padding: 120px 20px 20px;
 }
 
 .content h1 {
@@ -198,10 +195,14 @@ footer .contact-box p {
     text-align: center;
   }
   .content-container {
-    padding: 10px 20px 40px;
+    padding: 10px 20px 0;
+    margin-bottom: 0;
   }
   .zj-logo {
     max-width: 75px;
     max-height: 30px;
+  }
+  footer {
+    margin: 0;
   }
 }
