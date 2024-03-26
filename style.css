@@ -140,6 +140,9 @@ footer .contact-box p {
 .content-container img {
   display: inline-block;
 }
+.content span {
+  font-size: 30px;
+}
 .content h1 {
   font-size: 64px;
   line-height: 80px;
