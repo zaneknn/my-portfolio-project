@@ -39,6 +39,10 @@ p {
 }
 header {
   text-align: center;
+  font-size: 64px;
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 nav li {
   display: inline;
@@ -102,6 +106,10 @@ footer .contact-box p {
 .ending a:hover {
   color: #5a4ab5;
 }
+.contactLogo img {
+  display: block;
+  margin: 0 auto;
+}
 .hero {
   background: white;
   text-align: center;
@@ -129,7 +137,9 @@ footer .contact-box p {
 .content-container {
   padding: 80px 20px 20px;
 }
-
+.content-container img {
+  display: inline-block;
+}
 .content h1 {
   font-size: 64px;
   line-height: 80px;
