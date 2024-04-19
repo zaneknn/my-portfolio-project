@@ -20,9 +20,14 @@ h6 {
   font-weight: bold;
 }
 
-h1 {
+.hero h1 {
   font-size: 96px;
   line-height: 1.5;
+}
+h1 {
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
 }
 
 h2 {
@@ -37,13 +42,7 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-header {
-  text-align: center;
-  font-size: 64px;
-  color: black;
-  font-family: var(--heading-font-family);
-  font-weight: bold;
-}
+
 nav li {
   display: inline;
   list-style: none;
@@ -80,7 +79,6 @@ footer .email-link:hover {
 }
 footer .social-links a {
   margin: 0 20px;
-  background-color: var(--secondary-color);
   padding: 10px 13px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
@@ -146,6 +144,7 @@ footer .contact-box p {
 .content h1 {
   font-size: 64px;
   line-height: 80px;
+  text-align: left;
 }
 
 .content h2 {
@@ -211,6 +210,9 @@ footer .contact-box p {
   filter: contrast(90%);
   transform: scale(1.1);
 }
+.images a {
+  text-align: center;
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -230,6 +232,7 @@ footer .contact-box p {
   }
   .content h1 {
     font-size: 46px;
+    text-align: center;
   }
   .content,
   .skills,
@@ -255,5 +258,12 @@ footer .contact-box p {
   }
   .content-container img {
     margin-top: 30px;
+  }
+  .skills {
+    display: none;
+  }
+  .portrait {
+    display: block;
+    margin: 0 auto;
   }
 }
