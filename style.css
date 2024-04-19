@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #787470;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -58,7 +58,7 @@ nav a {
 }
 nav a:hover,
 nav li.active a {
-  color: #5a4ab5;
+  color: #956b07;
 }
 nav ul {
   padding: 0;
@@ -76,7 +76,7 @@ footer .email-link {
   margin: 0 0 60px;
 }
 footer .email-link:hover {
-  color: #5a4ab5;
+  color: #956b07;
 }
 footer .social-links a {
   margin: 0 20px;
@@ -104,7 +104,7 @@ footer .contact-box p {
   transition: all 100ms ease-in-out;
 }
 .ending a:hover {
-  color: #5a4ab5;
+  color: #956b07;
 }
 .contactLogo img {
   display: block;
@@ -163,6 +163,11 @@ footer .contact-box p {
 }
 .content {
   margin: 30px;
+}
+.content img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
 }
 .content a {
   text-decoration: none;
@@ -247,5 +252,8 @@ footer .contact-box p {
   }
   footer {
     margin: 0;
+  }
+  .content-container img {
+    margin-top: 30px;
   }
 }
